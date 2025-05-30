@@ -50,6 +50,11 @@ class RawCodec(udsoncan.DidCodec):
     def __len__(self) -> int:
         return self.string_len
 
+class O3EPercent(O3EInt):
+    def __init__(self, string_len: int, idStr: str):
+        assert string_len == 1
+        O3EInt.__init__(self, string_len, idStr, scale=2.55, signed=False)
+
 
 class O3EInt(udsoncan.DidCodec):
     def __init__(self, string_len: int, idStr: str, scale: float = 1.0, signed=False):
