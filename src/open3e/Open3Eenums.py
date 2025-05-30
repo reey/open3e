@@ -2361,8 +2361,11 @@ E3Enums = {
 
     #erledigt
     "InstalledValveType" : {
+        1: "Climate sensor",
+        2: "Thermostatic radiator valve",
         4: "powerless closed",
         5: "powerless opened",
+        7: "Repeater"
     },
 
     #TODO cooling missing
