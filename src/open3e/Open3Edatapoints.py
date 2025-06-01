@@ -1678,6 +1678,7 @@ dataIdentifiers = {
         3213 : O3EComplexType(9, "ExternalHeaterTemperatureSensor", [O3EInt16(2, "Actual", signed=True), O3EInt16(2, "Minimum", signed=True), O3EInt16(2, "Maximum", signed=True), O3EInt16(2, "Average", signed=True), O3EByteVal(1, "Unknown")]), # Unit °C
         3215 : O3EComplexType(9, "ExternalHeaterSeparatorTemperatureSensor", [O3EInt16(2, "Actual", signed=True), O3EInt16(2, "Minimum", signed=True), O3EInt16(2, "Maximum", signed=True), O3EInt16(2, "Average", signed=True), O3EByteVal(1, "Unknown")]), # Unit °C
         3228 : O3EComplexType(73, "EnergyMeterOne", [O3EInt16(2, "Power", scale=10), RawCodec(71, "Unknown")]),
+        3229 : O3EComplexType(73, "EnergyMeterTwo", [O3EInt16(2, "Power", scale=10), RawCodec(71, "Unknown")]),
         3234 : O3EComplexType(9, "DomesticHotWaterBufferTopTemperatureSensor", [O3EInt16(2, "Actual", signed=True), O3EInt16(2, "Minimum", signed=True), O3EInt16(2, "Maximum", signed=True), O3EInt16(2, "Average", signed=True), O3EByteVal(1, "Unknown")]), # Unit °C    
     }
 }
