@@ -2328,4 +2328,61 @@ E3Enums = {
         2: "Installed",
         3: "Factory Installed",
     },
+
+#### NEW NEW NEW
+    #erledigt
+    "Roomtypes" : {
+        2: "Bathroom", #Badezimmer
+        3: "Bedroom", #Schlafzimmer
+        4: "Hallway", #Diele/Flur
+        5: "Living Room", #Wohnzimmer
+        6: "Childrens Room", #Kinderzimmer
+        7: "Kitchen", #Küche
+        8: "Office", #Büro
+        9: "Guest Toilet", #WCToilette
+        11: "Others" #Andere
+    },
+    
+    #erledigt
+    "TemperatureControlLevels" : {
+        1: "MaximumEco",
+        2: "MoreEco",
+        3: "Eco",
+        4: "Komfort (Default)",
+        5: "More Comfort",
+        6: "Maximum Comfort"
+    },
+
+    #erledigt
+    "WindowDetectionState" : {
+        0: "Not Active",
+        1: "Active",
+    },
+
+    #erledigt
+    "InstalledValveType" : {
+        1: "Climate sensor",
+        2: "Thermostatic radiator valve",
+        4: "powerless closed",
+        5: "powerless opened",
+        7: "Repeater"
+    },
+
+    #TODO cooling missing
+    "CurrentWorkingModeLevels" : {
+        0: "StandBy",
+        64: "Heating"        
+    },
+
+    #erledigt
+    "ViCareThermostaticRadiatorValveDisplayModeState" : {
+        0: "Standard",
+        1: "Turned",
+    },
+
+    #erledigt
+    "ViCareThermostaticRadiatorValveChildLockState" : {
+        0: "Not Active",
+        1: "Active"
+    },
 }
